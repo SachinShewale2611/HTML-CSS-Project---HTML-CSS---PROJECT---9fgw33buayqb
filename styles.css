@@ -62,7 +62,7 @@ body {
 }
 @media (max-width: 850px ) {
     .code-container {
-        flex-wrap: fixed;
+        flex-wrap: wrap;
     }
     .code {
         height: 65px;
