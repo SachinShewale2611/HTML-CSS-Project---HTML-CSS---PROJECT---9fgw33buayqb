@@ -60,13 +60,20 @@ body {
 .code::placeholder{
     color: #777777b0;
 }
-@media (max-width: 600px) {
+@media (max-width: 850px ) {
     .code-container {
-        flex-wrap: wrap;
+        flex-wrap: fixed;
     }
     .code {
-        height: 55px;
-        width: 40px;
+        height: 65px;
+        width: 50px;
         font-size: 35px;
+    }
+    body{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
     }
 }
