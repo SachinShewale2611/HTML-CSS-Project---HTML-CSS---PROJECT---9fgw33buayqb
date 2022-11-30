@@ -60,7 +60,7 @@ body {
 .code::placeholder{
     color: #777777b0;
 }
-@media (max-width: 850px ) {
+@media only screen and (max-width: 850px ) {
     .code-container {
         flex-wrap: wrap;
         padding: 0;
